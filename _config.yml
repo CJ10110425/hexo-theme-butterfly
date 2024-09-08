@@ -17,10 +17,11 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  Home: / || fas fa-home
+  Archives: / || fa-fw fas fa-heart  
+  About Us || fa-fw fas fa-heart:
+    About 1st team: /team/index.html || fa-fw fas fa-heart
+    About 2an team: /team/index-1.html || fa-fw fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -59,10 +60,10 @@ avatar:
   effect: false
 
 # Disable all banner images
-disable_top_img: false
+disable_top_img: 
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: https://s2.loli.net/2024/01/30/2ysqcepDuiktgFC.webp
 
 # The banner image of index page
 index_img:
@@ -91,7 +92,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: https://s2.loli.net/2024/01/30/2ysqcepDuiktgFC.webp
 
 cover:
   # Disable the cover or not
@@ -147,7 +148,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -162,7 +163,10 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
-  sub:
+  sub: 
+  - 續水，我們賣永續的水
+  - 目前存水量： 4.25%
+
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -767,13 +771,11 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
-  # source
-  # 1. fullpage-loading
-  # 2. pace (progress bar)
+  enable: true
   source: 1
-  # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-flash.min.css
+  pace_js_url: https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js
+
 
 # Page Transition
 enter_transitions: true
